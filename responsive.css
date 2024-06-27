@@ -1,0 +1,73 @@
+@media (max-width:1111px) {
+    #navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: 0px;
+        height: 100vh;
+        width: 300px;
+        background-color: #e3e6f3;
+        box-shadow: 0 40px 60px rgba(o, 0, 0, 0.1);
+        padding: 80px 0 0 10px;
+        transition: 0.3s;
+    }
+
+    #navbar.active {
+        right: 0px;
+    }
+
+    #navbar li {
+        margin-bottom: 25px;
+    }
+
+    #mobile {
+        display: flex;
+        align-items: center;
+    }
+
+    #mobile i {
+        color: #1a1a1a;
+        font-size: 24px;
+        padding-left: 20px;
+    }
+
+    #close {
+        display: initial;
+        font-weight: 900;
+        text-decoration: none;
+        position: absolute;
+        top: 30px;
+        left: 30px;
+        color: #222;
+        font-size: 27px;
+    }
+
+    #money {
+       height: 70vh;
+       padding: 0 80px;
+       background-position: top 30% right 30%;
+    }
+
+    #feature .feature-box {
+        justify-content: center;
+    }
+
+    #course-banner h1 {
+        font-size: 33px;
+        text-align: left;
+        color: #ffffff;
+    }
+
+    .Outcomes-box {
+        align-items: center;
+        width: 100%;
+        margin-bottom: -60px;
+        margin-top: 30px;
+        margin-left: -175px;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+}
